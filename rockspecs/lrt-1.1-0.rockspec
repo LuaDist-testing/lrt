@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = 'lrt'
-version = '1.0-0'
--- LuaDist source
+version = '1.1-0'
 source = {
-  tag = "1.0-0",
-  url = "git://github.com/LuaDist-testing/lrt.git"
+  url = 'https://github.com/ryanplusplus/lrt/archive/v1.1-0.tar.gz',
+  dir = 'lrt-1.1-0'
 }
--- Original source
--- source = {
---   url = 'https://github.com/ryanplusplus/lrt/archive/v1.0-0.tar.gz',
---   dir = 'lrt-1.0-0'
--- }
 description = {
   detailed = 'Script for easily working with Luarocks trees. Allows you to configure Lua projects to only reference project-local dependencies in order to isolate them from system-wide dependencies.',
   homepage = 'https://github.com/ryanplusplus/lrt',
